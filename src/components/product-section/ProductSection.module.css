@@ -1,0 +1,62 @@
+.product{
+    margin: auto;
+    width: 100%;
+
+    display: grid;
+    gap: 1.5625rem;
+    margin-bottom: 40PX;
+    grid-template-columns: repeat(auto-fit,minmax(250px ,1fr));
+}
+
+.card{
+   
+    display: flex;
+    flex-direction: column;
+   
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.30);
+
+}
+.topImgDiv{
+  
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cardImg{
+
+    width: 300px;
+    height: 450px;
+    &:hover{
+        transform: scale(1.03);
+    }
+
+}
+.bottomDiv{
+   
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: .875rem;
+    padding-bottom: 1.25rem;
+}
+
+.starDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.375rem;
+}
+
+.bottomDiv p{
+    font-size: 1.5625rem;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  padding-top: 44px;
+  margin: 0 auto;
+  width: 1440px;
+   padding-left: 7.5rem;
+   padding-right: 7.5rem;
+  
+  
+}

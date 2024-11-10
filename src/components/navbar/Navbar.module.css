@@ -1,0 +1,96 @@
+.nav{
+    width: 1196px;
+    height: 47px;
+    background-color: transparent;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.nav h1{
+    font-size: 38.74px;
+    color: #875181;
+}
+.nav ul{
+    width: 461px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav ul li{
+    font-size: 21.71px;
+    color: #94618E;
+
+}
+.nav button{
+    width: 107px;
+    height: 42px;
+    border: 2px solid #94618E;
+    background: transparent;
+    font-size: 21.71px;
+    border-radius: 6px;
+    color: #94618E;
+
+}
+.hambergermenu{
+    margin-right: 20px;
+    display: none;
+}
+
+.navLinksDiv{
+    display: flex;
+    height: 100%;
+    width: 51.8125rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media(max-width:768px){
+       .navLinksDiv{
+        display: none;
+       }
+       .adjustDiv{
+        background-color: rgb(251, 251, 251);
+        display: block;
+        position: absolute;
+        top: 47px;
+        left: 0;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+    }
+    .adjustDiv ul{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .adjustDiv ul li{
+        font-size: 30px;
+    }
+    .adjustDiv button{
+        width: 20%;
+        height: 15%;
+    }
+    .hambergermenu{
+        display: block;
+    }
+    .nav h1{
+        margin-left: 1.25rem;
+    }
+}

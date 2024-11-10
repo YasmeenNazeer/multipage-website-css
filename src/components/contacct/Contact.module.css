@@ -1,0 +1,110 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    margin-top: 40PX;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .title {
+    font-size: 44px;
+    color: #94618E;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    color: #b18ead;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .infoSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .infoBox {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 .5rem;
+  }
+  
+  .infoTitle {
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: .5rem;
+  }
+  
+  .link {
+    color: #94618E;
+    text-decoration: none;
+  }
+  
+  .contactForm {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .formTitle {
+    font-size: 32px;
+    color: #94618E;
+    font-family: serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .label {
+    display: block;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: .5rem;
+  }
+  
+  .input, .textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .button {
+    background-color: #94618E;
+    color: #000000;
+    padding: .8rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+    font-family: serif;
+    cursor: pointer;
+
+    &:hover{
+      transform: scale(1.03 );
+    }
+  
+  }
+  
+  .button:hover {
+    background-color: #d2adda;
+  }
+  
